@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Global Weather Station Monitor</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="group_0">
+      <property name="title">
+       <string>NORTH (Північ)</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_0">
+       <item>
+        <widget class="QLabel" name="lblTemp_0">
+         <property name="text">
+          <string>Температура: --</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblHum_0">
+         <property name="text">
+          <string>Вологість: --</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblWind_0">
+         <property name="text">
+          <string>Вітер: --</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="group_1">
+      <property name="title">
+       <string>SOUTH (Південь)</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_1">
+       <item>
+        <widget class="QLabel" name="lblTemp_1">
+         <property name="text">
+          <string>Температура: --</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblHum_1">
+         <property name="text">
+          <string>Вологість: --</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblWind_1">
+         <property name="text">
+          <string>Вітер: --</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="group_2">
+      <property name="title">
+       <string>EAST (Схід)</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="lblTemp_2">
+         <property name="text">
+          <string>Температура: --</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblHum_2">
+         <property name="text">
+          <string>Вологість: --</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblWind_2">
+         <property name="text">
+          <string>Вітер: --</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+
+    <item row="1" column="1">
+     <widget class="QGroupBox" name="group_3">
+      <property name="title">
+       <string>WEST (Захід)</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="lblTemp_3">
+         <property name="text">
+          <string>Температура: --</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblHum_3">
+         <property name="text">
+          <string>Вологість: --</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblWind_3">
+         <property name="text">
+          <string>Вітер: --</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+</ui>
