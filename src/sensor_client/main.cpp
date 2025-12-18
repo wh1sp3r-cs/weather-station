@@ -14,7 +14,7 @@ double getRand(double min, double max) {
 }
 
 int main(int argc, char* argv[]) {
-    // 1. Налаштування підключення
+    // Налаштування підключення
     std::string ip = "127.0.0.1";
     if (argc > 1) ip = argv[1];
 
@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
     WSAStartup(MAKEWORD(2, 2), &wsaData);
     srand(time(0));
 
-    // 2. Меню вибору типу сенсора
+    // Меню вибору типу сенсора
     int choice = -1;
     std::cout << "=== Weather Sensor Setup ===\n";
     std::cout << "Select Region:\n";
@@ -55,7 +55,7 @@ int main(int argc, char* argv[]) {
             continue;
         }
 
-        // 3. Генерація даних залежно від регіону
+        // Генерація даних залежно від регіону
         WeatherPacket pkg;
         pkg.region = myRegion;
 

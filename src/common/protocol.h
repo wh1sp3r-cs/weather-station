@@ -1,7 +1,7 @@
 #pragma once
 #include <cstdint>
 
-// 1. Ідентифікатори регіонів
+// Ідентифікатори регіонів
 enum RegionID {
     NORTH = 0,
     SOUTH = 1,
@@ -10,7 +10,7 @@ enum RegionID {
     COUNT = 4 // Кількість регіонів
 };
 
-// 2. Пакет, який летить по мережі (від Сенсора до Колектора)
+// Пакет, який летить по мережі (від Сенсора до Колектора)
 #pragma pack(push, 1)
 struct WeatherPacket {
     RegionID region;
@@ -20,7 +20,7 @@ struct WeatherPacket {
 };
 #pragma pack(pop)
 
-// 3. Структура "Дашборд", яка лежить в Shared Memory (Спільна Пам'ять)
+// Структура "Дашборд", яка лежить в Shared Memory
 // Вона зберігає останній відомий стан ВСІХ регіонів
 struct DashboardState {
     WeatherPacket data[RegionID::COUNT]; // Масив з 4-х елементів
